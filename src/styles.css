@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Navbar {
+  margin: 0;
+  padding: 1rem;
+  background-color: indigo;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Navbar h2,
+span {
+  color: white;
+  font-weight: bold;
+}
+.Navbar > span {
+  color: white;
+}
+span,
+h3,
+h5 {
+  color: black;
+}
+input {
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  border: 2px solid black;
+}
+button {
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: indigo;
+  font-weight: bold;
+}
